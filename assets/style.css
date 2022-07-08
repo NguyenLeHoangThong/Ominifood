@@ -91,7 +91,6 @@ hr{
     display: flex;
     margin: 20px 0;
     font-size: 17px;
-    width: 
 }
 
 .part4-list-item-index{
@@ -106,9 +105,81 @@ hr{
 
 .part4-list-item-description{
     max-width: 70%;
-
 }
 
+.part1{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/img/hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    padding: 18px 180px 0px 220px ;
+    justify-content: space-between;
+}
+
+.navbar-logo img{
+    width: 100px;
+}
+
+.navbar-items{
+    display: flex;
+    width: 640px;
+    justify-content: space-around;
+    font-size: 18px;
+    align-items: center;
+}
+
+.navbar-item a{
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+}
+
+.header h1{
+    font-size: 46px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: -50px;
+}
+
+.buttons{
+    margin-top: 25px;
+    display: flex;
+}
+
+.button{
+    padding: 16px 24px;
+    background-color: var(--primary-color);
+    margin-right: 12px;
+    border-radius: 36px;
+    
+}
+
+.button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.button.non-active{
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+}
+
+.button.non-active a{
+    color: var(--primary-color);   
+}
 
 
 
